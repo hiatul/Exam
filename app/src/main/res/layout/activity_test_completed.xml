@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test_completed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.admin.exam.TestCompleted">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="Thank You !"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="Your Test Has Been Succesfully Submitted."
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/Finish"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Finish"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/app_color"
+        android:background="#ffff"
+        android:textSize="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:onClick="clkfinish"
+        />
+
+</LinearLayout>

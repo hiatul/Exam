@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.exam">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="Exam"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash_screen1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity1" />
+        <activity android:name=".Code_Activity" />
+        <activity android:name=".Question_pape" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".UserDetail" />
+        <activity android:name=".AdminChoicePanel" />
+        <activity android:name=".AddProduct" />
+        <activity android:name=".AddQA" />
+        <activity android:name=".Manageques" />
+        <activity android:name=".ManageProducts" />
+        <activity android:name=".UpdateQues" />
+        <activity android:name=".DeleteQuestion" />
+        <activity android:name=".UpdateProduct" />
+        <activity android:name=".DeleteProduct" />
+        <activity android:name=".UserResult" />
+        <activity android:name=".fetchResult" />
+        <activity android:name=".TestCompleted"></activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.firebase.messaging.default_notification_icon"
+                android:resource="@drawable/applogo" />
+            <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+                 notification message. See README(https://goo.gl/6BKBk7) for more. -->
+            <meta-data
+                android:name="com.google.firebase.messaging.default_notification_color"
+                android:resource="@color/colorAccent" />
+        </service>
+    </application>
+
+</manifest>

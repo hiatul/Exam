@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:weightSum="40"
+    tools:context="com.example.admin.exam.Splash_screen1"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:background="@drawable/ccsefinal"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/imageView" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:layout_height= "0dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="© Supported By"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textColor="@color/app_color"/>
+
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/splashing"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

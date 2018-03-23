@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "994120564503",
+    "project_id": "exam-c1214"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994120564503:android:8ca00d9778b66f19",
+        "android_client_info": {
+          "package_name": "com.example.admin.exam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994120564503-6frsvo5s9rp57k2g0bq3cqmg0gtv4pt7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.exam",
+            "certificate_hash": "f541eacd6f086eb18cf27b116429c869b8cc1c20"
+          }
+        },
+        {
+          "client_id": "994120564503-v8he5al4djf1tphlg61cgr8odvj448i6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEelwBUdGKmVNQPLtJaYDLpaiWj9DSpaY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
